@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textSize="50px"
+        android:text="Nome do Projeto"/>
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:padding="10px"
+        android:layout_margin="30px"/>
+
+
+    <Button
+        android:id="@+id/btn_Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:padding="50px"
+        android:textColor="#FFF"
+        android:background="#A5F"
+        android:layout_margin="5px"
+        android:text="Registrar"/>
+
+
+
+
+</LinearLayout>
